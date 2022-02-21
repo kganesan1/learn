@@ -22,7 +22,7 @@ steps:
     targetType: 'inline'
     script: |
       # Write your PowerShell commands here.
-        Write-Host "##vso[task.setvariable variable=myvariable;isSecret=false;isOutput=true;]myvalue"
+      Write-Host "##vso[task.setvariable variable=myvariable;isSecret=false;isOutput=true;]myvalue"
 
 - task: PowerShell@2
   inputs:
